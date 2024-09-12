@@ -1,8 +1,7 @@
-let btn = document.querySelector("#header");
-btn.addEventListener('mousemove', e => {
-    let rect = e.target.getBoundingClientRect();
-    let x = e.clientX - rect.left;
-    let y = e.clientY - rect.top;
-    btn.style.setProperty("--x", x + "px");
-    btn.style.setProperty("--y", y + "px");
-});
+let confetti = new Confetti('name');
+
+confetti.setCount(75);
+confetti.setSize(1);
+confetti.setPower(25);
+confetti.setFade(false);
+confetti.destroyTarget(false);

@@ -3,8 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Joseph Heinz Portfolio</title>
     <link rel="stylesheet" href="styles/main.css" />
+    <base target="_blank" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/images/entire_network_globe-1.png"
+    />
   </head>
   <body>
     <header id="top">
@@ -12,9 +18,19 @@
     </header>
     <nav>
       <ul>
-        <li><a href="pages">pages</a></li>
+        <li><a href="#top">Top</a></li>
         <li>•</li>
-        <li><a href="pages">pages</a></li>
+        <li><a href="/pages/about_me/">About</a></li>
+        <li>•</li>
+        <li><a href="#blog">Blog</a></li>
+        <li>•</li>
+        <li><a href="#flurrble">Flurrble</a></li>
+        <li>•</li>
+        <li><a href="#cookbook">Cookbook</a></li>
+        <li>•</li>
+        <li><a href="#badges">Badges</a></li>
+        <li>•</li>
+        <li><a href="#skills">Skills</a></li>
       </ul>
     </nav>
     <main>
@@ -25,26 +41,26 @@
       <h2>Here are some things in my portfolio or something</h2>
       <section class="main-wrapper">
         <div class="portfolio-item">
-          <a href="#top" class="nostyle"
+          <a href="#blog" class="nostyle"
             ><img src="/images/blog_ss.jpg" alt="Screenshot of my blog"
           /></a>
         </div>
         <div class="portfolio-item">
-          <a href="#top" class="nostyle"
+          <a href="#flurrble" class="nostyle"
             ><img
               src="/images/flurrble_ss.jpg"
               alt="Screenshot of Flurrble.com"
           /></a>
         </div>
         <div class="portfolio-item">
-          <a href="#top" class="nostyle"
+          <a href="#cookbook" class="nostyle"
             ><img
               src="/images/cookbook_ss.jpg"
               alt="Screenshot of a cookbook website"
           /></a>
         </div>
         <div class="portfolio-item">
-          <a href="#top" class="nostyle"
+          <a href="#badges" class="nostyle"
             ><img src="/images/badge.png" alt="ITS Html and Css Badge"
           /></a>
         </div>
@@ -55,7 +71,7 @@
       <section id="portfolio-wrapper">
         <article class="portfolio-content" id="blog">
           <div class="left">
-            <h1 style="font-size: 2.5rem">Blog</h1>
+            <h1 class="portfolio-title">Blog</h1>
             <br />
             <p>
               My blog is something I started a month or two ago, to write my
@@ -64,9 +80,13 @@
               while at this point, there's only a few posts, 2 or so of which
               are just effectively tests.
             </p>
-            <br /><br>
+            <br /><br />
             <div class="portfolio-buttons">
-              <a href="#top" class="pill-button nostyle">View Live Site</a>
+              <a
+                href="https://josephheinz.tech/blog/"
+                class="pill-button nostyle"
+                >View Live Site</a
+              >
             </div>
           </div>
           <div class="right">
@@ -77,9 +97,142 @@
             />
           </div>
         </article>
-        <article class="portfolio-content" id="flurrble"></article>
-        <article class="portfolio-content" id="cookbook"></article>
-        <article class="portfolio-content"></article>
+        <article class="portfolio-content" id="flurrble">
+          <div class="left">
+            <img
+              src="/images/flurrble_ss.jpg"
+              alt="Screenshot of flurrble.com"
+              class="portfolio-image"
+            />
+          </div>
+          <div class="right">
+            <h1 class="portfolio-title">Flurrble</h1>
+            <br />
+            <p>
+              Flurrble was a web design website that I created last year. I was
+              interested in forming an agency to complete design work for small
+              businesses, however it really never took off, but I learned many
+              new skills, such as web design fundamentals, UX design, SEO
+              optimization, communicating with clients, creating websites with
+              Webflow, and website optimization.
+            </p>
+            <br /><br />
+            <div class="portfolio-buttons">
+              <a href="https://www.flurrble.com/" class="pill-button nostyle"
+                >View Live Site</a
+              >
+              <a href="#top" class="pill-button nostyle"
+                >View Wayback Machine</a
+              >
+            </div>
+          </div>
+        </article>
+        <article class="portfolio-content" id="cookbook">
+          <div class="left">
+            <h1 class="portfolio-title">Cookbook</h1>
+            <br />
+            <p>
+              This was an assignment for my class in Software and Game
+              Development, where we had to either create a interactive timeline
+              or a cookbook website. I chose to create a cookbook website, since
+              I wanted to practice my CSS skills and had some ideas for it. All
+              of the content I used came from the Betty Crocker website.
+              Overall, I think it turned out all right and it was a good
+              practice assignment.
+            </p>
+            <br /><br />
+            <div class="portfolio-buttons">
+              <a
+                href="https://github.com/oaisd-ctc/timeline-or-cookbook-bonus-activity-Joseph-Heinz-Student"
+                class="pill-button nostyle"
+                >View the GitHub Repo</a
+              >
+            </div>
+          </div>
+          <div class="right">
+            <img
+              src="/images/cookbook_ss.jpg"
+              alt="Screenshot of the cookbook"
+              class="portfolio-image"
+            />
+          </div>
+        </article>
+        <article class="portfolio-content" id="badges">
+          <div class="left">
+            <img
+              src="/images/badge.png"
+              alt="ITS HTML and CSS Certification"
+              class="portfolio-image"
+            />
+          </div>
+          <div class="right">
+            <h1 class="portfolio-title">Badges and Certifications</h1>
+            <br />
+            <p>
+              Currently, the only certification course I have completed is the
+              IT Specialist - HTML and CSS certification by Certiport. I plan on
+              getting certified in some more things in the future, though.
+            </p>
+            <br /><br />
+            <div class="portfolio-buttons">
+              <a
+                href="https://www.credly.com/users/joseph-heinz.48154d22"
+                class="pill-button nostyle"
+                >View my Credly</a
+              >
+            </div>
+          </div>
+        </article>
+      </section>
+      <br />
+      <hr />
+      <br />
+      <section class="language-skills" id="skills">
+        <h1 class="portfolio-title">My Language Skills</h1>
+        <br />
+        <article class="skills-main">
+          <h1>HTML</h1>
+          <br />
+          <div class="skills-container">
+            <div class="skills html">95%</div>
+          </div>
+          <br><br>
+          <h1>CSS</h1>
+          <br />
+          <div class="skills-container">
+            <div class="skills css">80%</div>
+          </div>
+          <br><br>
+          <h1>JS</h1>
+          <br />
+          <div class="skills-container">
+            <div class="skills js">85%</div>
+          </div>
+          <br><br>
+          <h1>C#</h1>
+          <br />
+          <div class="skills-container">
+            <div class="skills csharp">5%</div>
+          </div>
+          <br><br>
+          <h1>Go</h1>
+          <br />
+          <div class="skills-container">
+            <div class="skills go">12%</div>
+          </div>
+          <br><br>
+          <h1>Python</h1>
+          <br />
+          <div class="skills-container">
+            <div class="skills python">90%</div>
+          </div>
+          <br><br>
+          <h1>GDScript</h1>
+          <br />
+          <div class="skills-container">
+            <div class="skills gdscript">45%</div>
+          </div>
+        </article>
       </section>
     </main>
     <footer></footer>
